@@ -26,7 +26,7 @@
         }
 
       function initMap() {
-        loadJSON(function(uniData) {
+        //loadJSON(function(uniData) {
           //console.log(uniData);
 
           var myLatLng = {lat: -40.3602769, lng: 175.9405623};
@@ -37,32 +37,45 @@
             center: myLatLng,
             zoom: 6
           });
-          for (const key in uniData) {
-           // if (uniData.hasOwnProperty(key)) {
-              const element = uniData[key];
-              console.log(element);
-              var marker = new google.maps.Marker({
-              map: map,
-              path: google.maps.SymbolPath.CIRCLE,
-              position: {lat: Number(element.latLng.lat), lng: Number(element.latLng.lng)},
-              title: element.uniName
-            });
-            //}
+          //map.data.loadGeoJson('uniGeo.json');
+          map.data.loadGeoJson('schGeo.json');
+
+          map.data.setStyle(function(feature) {
+          var intType = feature.getProperty('intType');
+          var name = feature.getProperty('name');
+          var size = feature.getProperty("size");
+          var distanceToNearestUni = feature.getProperty("distanceToNearestUni");
+          if (intType == "school") {
+            return {
+              icon: getCircle(size, distanceToNearestUni)
+            };
+          } else {
+            return {
+              path: google.maps.SymbolPath.CIRCLE
+            };
           }
-         /* uniData.forEach(uni => {
-            var marker = new google.maps.Marker({
-              map: map,
-              position: uni.latLng,
-              title: uni.uniName
-            });
-          });*/
-          // Create a marker and set its position.
-          /*var marker = new google.maps.Marker({
-            map: map,
-            position: myLatLng,
-            title: 'Hello World!'
-          });*/
+          
         });
+          
+      }
+
+      function getCircle(size, distanceToNearestUni) {
+        var color = 'black';
+        if (distanceToNearestUni == "Remote" ) {
+          color = 'red';
+        } else if (distanceToNearestUni == "Bus Range") {
+          color = 'orange';
+        } else if (distanceToNearestUni == "Nearby") {
+          color = 'green';
+        }
+        return {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: color,
+          fillOpacity: .3,
+          scale: Math.log( size) ,
+          strokeColor: 'white',
+          strokeWeight: .5
+        };
       }
 
     </script>

@@ -16,8 +16,47 @@ foreach($i in 0..7) {
      })
      [double[]]$latLngArr =  [double]$latLngOb.lng,  [double]$latLngOb.lat
     $prop = New-Object -TypeName PSObject –Prop (@{
-        'uniName'=$uniNameArr[$i];
+        'name'=$uniNameArr[$i];
         'intType'='uni';
+     })
+
+     $geom = New-Object -TypeName PSObject –Prop (@{
+        'type'='Point';
+        'coordinates'=$latLngArr; 
+     })
+
+     $object = New-Object -TypeName PSObject –Prop (@{
+        'type'="Feature";
+        'geometry'=$geom; 
+        'properties'=$prop;
+     })
+
+     #@{
+      #  'type'="Feature";
+        # 'geometry'=$geom; 
+        # 'properties'=$prop;
+    #  }
+
+
+     $processedItems.Add($object)
+}
+$schools = Import-Csv ".\selected_schools.csv"
+
+
+#$processedItems = New-Object System.Collections.Generic.List[Object]
+
+foreach($i in 0..($schools.Length-1)) {
+    #$latLng = $locStrings[$i].Split(',')
+    $latLngOb = New-Object -TypeName PSObject –Prop (@{
+        'lat'=$schools[$i].Latitude;
+        'lng'=$schools[$i].Longitude; 
+     })
+     [double[]]$latLngArr =  [double]$latLngOb.lng,  [double]$latLngOb.lat
+    $prop = New-Object -TypeName PSObject –Prop (@{
+        'name'=$schools[$i].'Provider name';
+        'intType'="school";
+        'distanceToNearestUni'=$schools[$i].'Distance to nearest uni';
+        'size'=$schools[$i].Size;
      })
 
      $geom = New-Object -TypeName PSObject –Prop (@{
@@ -46,6 +85,4 @@ $featuresCollection = @{
     "features" = $processedItems;
 }
 
-ConvertTo-Json $featuresCollection -Depth 10 | Out-File -FilePath 'uniGeo.json'
-
-# http://geojson.org/
+ConvertTo-Json $featuresCollection -Depth 10 | Out-File -FilePath 'schGeo.json'
