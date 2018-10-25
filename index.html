@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This stylesheet contains specific styles for displaying
+         the map on this page. Replace it with your own styles as
+         described in the documentation:
+         https://developers.google.com/maps/documentation/javascript/tutorial
+    -->
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+       function loadJSON(callback) {   
+
+          var xobj = new XMLHttpRequest();
+              xobj.overrideMimeType("application/json");
+          xobj.open('GET', 'uni.json', true); // Replace 'my_data' with the path to your file
+          xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                  // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                  callback(JSON.parse(xobj.responseText));
+                }
+          };
+          xobj.send(null);  
+        }
+
+      function initMap() {
+        loadJSON(function(uniData) {
+          //console.log(uniData);
+
+          var myLatLng = {lat: -40.3602769, lng: 175.9405623};
+          
+          // Create a map object and specify the DOM element
+          // for display.
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 6
+          });
+          for (const key in uniData) {
+           // if (uniData.hasOwnProperty(key)) {
+              const element = uniData[key];
+              console.log(element);
+              var marker = new google.maps.Marker({
+              map: map,
+              path: google.maps.SymbolPath.CIRCLE,
+              position: {lat: Number(element.latLng.lat), lng: Number(element.latLng.lng)},
+              title: element.uniName
+            });
+            //}
+          }
+         /* uniData.forEach(uni => {
+            var marker = new google.maps.Marker({
+              map: map,
+              position: uni.latLng,
+              title: uni.uniName
+            });
+          });*/
+          // Create a marker and set its position.
+          /*var marker = new google.maps.Marker({
+            map: map,
+            position: myLatLng,
+            title: 'Hello World!'
+          });*/
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6fuFIUgVZJXYI6lYXVzp1Us-fwO8wd_I&callback=initMap"
+        async defer></script>
+  </body>
+</html>
