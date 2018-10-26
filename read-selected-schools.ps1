@@ -17,7 +17,7 @@ foreach($i in 0..7) {
      [double[]]$latLngArr =  [double]$latLngOb.lng,  [double]$latLngOb.lat
     $prop = New-Object -TypeName PSObject –Prop (@{
         'name'=$uniNameArr[$i];
-        'intType'='uni';
+        'intType'='University';
      })
 
      $geom = New-Object -TypeName PSObject –Prop (@{

@@ -28,15 +28,271 @@
       function initMap() {
         //loadJSON(function(uniData) {
           //console.log(uniData);
-
+          
           var myLatLng = {lat: -40.3602769, lng: 175.9405623};
           
+// Create a new StyledMapType object, passing it an array of styles,
+        // and the name to be displayed on the map type control.
+        var styledMapType = new google.maps.StyledMapType(
+          [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.province",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#ffeb3b"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#c9c9c9"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  }
+],
+            {name: 'Styled Map'});
+
           // Create a map object and specify the DOM element
           // for display.
           var map = new google.maps.Map(document.getElementById('map'), {
             center: myLatLng,
-            zoom: 6
+            zoom: 6,
+            mapTypeControlOptions: {
+              mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                      'styled_map']
+            }
           });
+
+          map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
+          	
+          var infowindow = new google.maps.InfoWindow();
           //map.data.loadGeoJson('uniGeo.json');
           map.data.loadGeoJson('schGeo.json');
 
@@ -51,9 +307,24 @@
             };
           } else {
             return {
-              path: google.maps.SymbolPath.CIRCLE
+              icon: '/baseline-location_city-24px.svg'
             };
           }
+          //baseline-location_city-24px.svg
+        });
+
+        map.data.addListener('click', function(event) {
+          var feature = event.feature;
+          var intType = feature.getProperty('intType');
+          var contentString = '<div>' + feature.getProperty('name') + '</div>' + 
+          '<div>' + feature.getProperty('intType')  + '</div>';
+
+          infowindow.setContent(contentString);
+          // position the infowindow on the marker
+          infowindow.setPosition(feature.getGeometry().get());
+          // anchor the infowindow on the marker
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-1)});
+          infowindow.open(map);
           
         });
           
@@ -62,24 +333,28 @@
       function getCircle(size, distanceToNearestUni) {
         var color = 'black';
         if (distanceToNearestUni == "Remote" ) {
-          color = 'red';
+          color = '#B62432';
         } else if (distanceToNearestUni == "Bus Range") {
-          color = 'orange';
+          color = '#BC6425';
         } else if (distanceToNearestUni == "Nearby") {
-          color = 'green';
+          color = '#177669';
         }
         return {
           path: google.maps.SymbolPath.CIRCLE,
           fillColor: color,
           fillOpacity: .3,
-          scale: Math.log( size) ,
+          scale: Math.log( size) * 1.5 ,
           strokeColor: 'white',
           strokeWeight: .5
         };
       }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6fuFIUgVZJXYI6lYXVzp1Us-fwO8wd_I&callback=initMap"
-        async defer></script>
+    <!-- prod -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7nwlOsX67n-0g-YHh6eHx2ZxMJSJbbRM&callback=initMap"
+    async defer></script>
+    <!-- dev -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6fuFIUgVZJXYI6lYXVzp1Us-fwO8wd_I&callback=initMap"
+        async defer></script> -->
   </body>
 </html>
