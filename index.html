@@ -297,21 +297,22 @@
           map.data.loadGeoJson('schGeo.json');
 
           map.data.setStyle(function(feature) {
-          var intType = feature.getProperty('intType');
-          var name = feature.getProperty('name');
-          var size = feature.getProperty("size");
-          var distanceToNearestUni = feature.getProperty("distanceToNearestUni");
-          if (intType == "school") {
-            return {
-              icon: getCircle(size, distanceToNearestUni)
-            };
-          } else {
-            return {
-              icon: '/baseline-location_city-24px.svg'
-            };
-          }
-          //baseline-location_city-24px.svg
-        });
+            var intType = feature.getProperty('intType');
+            var name = feature.getProperty('name');
+            var size = feature.getProperty("size");
+            var distanceToNearestUni = feature.getProperty("distanceToNearestUni");
+            if (intType == "school") {
+              return {
+                icon: getCircle(size, distanceToNearestUni),
+                zIndex: 50,
+                title: name
+              };
+            } else {
+              return  getUniMaker(name) // '/marker-ed-green-cen.svg'
+              ;
+            }
+            //baseline-location_city-24px.svg
+          });
 
         map.data.addListener('click', function(event) {
           var feature = event.feature;
@@ -327,8 +328,34 @@
           infowindow.open(map);
           
         });
+
+        
           
       }
+
+      function getUniMaker(name) {
+        var image = {
+          url: '/marker-ed-green-cen.svg',
+          // This marker is 20 pixels wide by 32 pixels high.
+          size: new google.maps.Size(32, 32),
+          // The origin for this image is (0, 0).
+          origin: new google.maps.Point(0, 0),
+          // The anchor for this image is the base of the flagpole at (0, 32).
+          anchor: new google.maps.Point(18, 32)
+        };
+        var shape = {
+          coords: [1, 1, 1, 20, 18, 20, 18, 1],
+          type: 'poly'
+        };
+        return {
+            icon: image,
+            //shape: shape
+            title: name,
+            zIndex: 999
+          };
+      }
+      
+      
 
       function getCircle(size, distanceToNearestUni) {
         var color = 'black';
@@ -339,14 +366,16 @@
         } else if (distanceToNearestUni == "Nearby") {
           color = '#177669';
         }
-        return {
+        var icon = {
           path: google.maps.SymbolPath.CIRCLE,
           fillColor: color,
           fillOpacity: .3,
           scale: Math.log( size) * 1.5 ,
           strokeColor: 'white',
           strokeWeight: .5
-        };
+        }
+
+        return icon;
       }
 
     </script>

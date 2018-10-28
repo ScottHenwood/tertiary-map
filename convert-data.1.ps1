@@ -16,7 +16,7 @@ foreach($i in 0..7) {
      })
      [double[]]$latLngArr =  [double]$latLngOb.lng,  [double]$latLngOb.lat
     $prop = New-Object -TypeName PSObject –Prop (@{
-        'uniName'=$uniNameArr[$i];
+        'name'=$uniNameArr[$i];
         'intType'='uni';
      })
 
