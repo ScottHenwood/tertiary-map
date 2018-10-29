@@ -302,7 +302,7 @@
             var size = feature.getProperty("size");
             var distanceToNearestUni = feature.getProperty("distanceToNearestUni");
             if (intType == "school") {
-              return getCircle(size, distanceToNearestUni);
+              return getCircle(size, distanceToNearestUni, name);
               //  {
               //   icon: getCircle(size, distanceToNearestUni),
               //   zIndex: 50,
@@ -319,8 +319,11 @@
         map.data.addListener('click', function(event) {
           var feature = event.feature;
           var intType = feature.getProperty('intType');
-          var contentString = '<div>' + feature.getProperty('name') + '</div>' + 
-          '<div>' + feature.getProperty('intType')  + '</div>';
+          var contentString = '<div><b>' + feature.getProperty('name') + '</b></div>' + 
+          '<div><i>' + feature.getProperty('intType')  + '</i></div>';
+          if (intType == 'school') {
+            contentString += '<div>' + '<b>School roll (2017):</b> ' + feature.getProperty('size')  + '</div>';
+          }
 
           infowindow.setContent(contentString);
           // position the infowindow on the marker
@@ -373,7 +376,7 @@
       
       
 // blue colour: #177669
-      function getCircle(size, distanceToNearestUni) {
+      function getCircle(size, distanceToNearestUni, name) {
         var color = 'black';
         if (distanceToNearestUni == "Remote" ) {
           color = '#B62432';
@@ -391,7 +394,10 @@
           strokeWeight: .5
         }
 
-        return { icon: image };
+        return { 
+          icon: image,
+          title: name
+        };
       }
 
     </script>
