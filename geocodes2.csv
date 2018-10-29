@@ -1,0 +1,462 @@
+number,name,lng,lat,region
+5997,The Electrical Training Company Limited,174.8492952,-36.9112985,Auckland Region
+6004,Unitec New Zealand,174.7078011,-36.8807404,Auckland Region
+6006,Ara Institute of Canterbury,172.6434212,-43.5380904,Canterbury Region
+6007,Eastern Institute of Technology,176.8408412,-39.5458816,Hawke's Bay Region
+6008,Wellington Institute of Technology,174.8815139,-41.2270216,Wellington Region
+6009,Universal College of Learning,175.6123577,-40.3524785,Manawatu-Wanganui Region
+6010,Manukau Institute of Technology,174.871122,-36.960762,Auckland Region
+6011,Nelson Marlborough Inst of Technology,173.2886908,-41.2745999,Nelson Region
+6012,North Tec,174.304154,-35.7405336,Northland Region
+6013,Otago Polytechnic,170.5182623,-45.8659451,Otago Region
+6014,Whitireia Community Polytechnic,174.8400034,-41.1285174,Wellington Region
+6015,Southern Institute of Technology,168.3557108,-46.4139579,Southland Region
+6017,Western Institute of Technology Taranaki,174.0889498,-39.0623438,Taranaki Region
+6019,Waikato Institute of Technology,175.28334,-37.7939941,Waikato Region
+6022,Open Polytechnic,174.9316524,-41.218334,Wellington Region
+6024,Tai Poutini Polytechnic,171.2109272,-42.4514675,West Coast Region
+6025,Toi Ohomai Institute of Technology,176.1506348,-37.7336438,Bay of Plenty Region
+7001,University of Auckland,174.7692241,-36.8508324,Auckland Region
+7002,University of Waikato,175.3177295,-37.7914163,Waikato Region
+7003,Massey University,175.5856931,-40.4236298,Manawatu-Wanganui Region
+7004,Victoria University of Wellington,174.7673119,-41.2893345,Wellington Region
+7005,University of Canterbury,172.5794753,-43.520804,Canterbury Region
+7006,Lincoln University,172.4636153,-43.6427058,Canterbury Region
+7007,University of Otago,170.5154412,-45.8644965,Otago Region
+7008,Auckland University of Technology,174.7673185,-36.8532321,Auckland Region
+7098,MITA Consulting Ltd,174.6318136,-36.8993103,Auckland Region
+7100,Te Rau Matatini Limited,174.7778183,-41.2827734,Wellington Region
+7123,North Shore Helicopter Training Limited,174.655931,-36.6555283,Auckland Region
+7127,Kauri Academy,174.7660265,-36.8565631,Auckland Region
+7128,Quality Consultants New Zealand Ltd,175.2315712,-37.7400537,Waikato Region
+7132,Medical Research Institute of New Zealand,174.77911,-41.3079886,Wellington Region
+7133,Spear Hospitality/Career Cafe/Artisan Consulting,174.3203396,-35.7238186,Northland Region
+7135,C4 Group Limited,174.8961122,-36.9605564,Auckland Region
+7136,NZ Training Assessments,174.7252251,-36.9025378,Auckland Region
+7140,New Zealand Aviation,175.7367219,-37.7358946,Waikato Region
+7143,North Shore Aero Club,174.6538687,-36.6545605,Auckland Region
+7152,Pacific Medicare Limited,176.1919884,-37.6439813,Bay of Plenty Region
+7153,Professional Resuscitation Services Ltd,174.720907,-36.782031,Auckland Region
+7154,Bay Learning Academy Limited,176.225756,-37.673732,Bay of Plenty Region
+7157,First Aid NZ Limited,174.7439765,-36.7955779,Auckland Region
+7158,CNSST Education Institute,174.8532644,-36.8987313,Auckland Region
+7170,Real World Education ,175.6082145,-40.3523065,Manawatu-Wanganui Region
+7177,UCIC,172.5847619,-43.5278681,Canterbury Region
+7180,Food Safe Limited,174.7522325,-36.8596397,Auckland Region
+7184,Allied Trades Institute Ltd,172.6044465,-43.4883983,Canterbury Region
+7187,Mainland Aviation College,170.094602,-46.023712,Otago Region
+7196,Freedom Institute of Higher Education,175.2739163,-37.7806077,Waikato Region
+7197,Ngatiwai Education,174.329501,-35.7340791,Northland Region
+7198,Manaaki Ora Trust,176.2540823,-38.1384511,Bay of Plenty Region
+7199,Workplace First Aid Training Ltd,170.5264016,-45.8850666,Otago Region
+7210,AsureQuality Limited,174.839729,-36.9212183,Auckland Region
+7245,New Zealand Security Association,174.772995,-36.7853634,Auckland Region
+7252,AMS Group Training,175.1587276,-37.5648721,Waikato Region
+7254,NZ Safety Worksafe Training,174.8045629,-36.8999537,Auckland Region
+7256,Southern Wings,168.3252555,-46.4151584,Southland Region
+7264,New Zealand Institute of Technical Training Limited,174.8766175,-36.9903547,Auckland Region
+7265,Fairview Educational Services Limited,175.248798,-37.7612336,Waikato Region
+7270,Avon City Ford Training,172.5520074,-43.5388247,Canterbury Region
+7282,New Zealand College of Chinese Medicine Limited,174.799228,-36.8947876,Auckland Region
+7302,Hospitality Training Company Limited,174.9803732,-40.9121369,Wellington Region
+7303,Learning Post Limited,174.6323415,-36.8827404,Auckland Region
+7314,NZ Leather & Shoe Research Association,175.6090401,-40.3784183,Manawatu-Wanganui Region
+7318,Sues Unlimited,176.153096,-37.7128199,Bay of Plenty Region
+7321,St John,174.7745457,-41.283119,Wellington Region
+7324,Impac Services Limited,176.8829981,-39.5032394,Hawke's Bay Region
+7326,New Zealand School of Radio,176.1669909,-37.6844559,Bay of Plenty Region
+7327,Health Audit Training Ltd,174.9051443,-36.9652945,Auckland Region
+7352,Wilkinson's English Language School Limited,172.609942,-43.5444129,Canterbury Region
+7355,Emergency Management Training Centre,172.6321059,-43.5274321,Canterbury Region
+7356,Mr Barber Ltd,174.7630138,-36.8478134,Auckland Region
+7372,Future Skills Academy,174.8776275,-37.0021493,Auckland Region
+7374,Devereux-Blum Training and Development Limited,174.8308759,-41.1578224,Wellington Region
+7375,Bridge International College NZ Ltd,174.7659851,-36.8500222,Auckland Region
+7380,New Zealand Skydiving School Ltd,171.5923905,-43.5658725,Canterbury Region
+7381,Samala Robinson Academy,174.773244,-36.847174,Auckland Region
+7391,EmployNZ,176.1622591,-37.6934484,Bay of Plenty Region
+7402,National Trade Academy Limited,172.4438457,-43.4630512,Canterbury Region
+7404,Risk Management Group,175.4244575,-37.8764659,Waikato Region
+7408,Well Women and Family Trust,174.733493,-36.8794308,Auckland Region
+7413,Waikato Aero Club Incorporated,-88.0106598,34.1256976,Waikato Region
+7418,Mainland Commercial Driving School Ltd,172.5861336,-43.5441423,Canterbury Region
+7421,Sewtec Fashion Academy,174.8587589,-36.9707637,Auckland Region
+7428,Community Colleges New Zealand Ltd,172.5995161,-43.2964655,Canterbury Region
+7436,Industry Skills Limited,176.2851354,-37.7079125,Bay of Plenty Region
+7445,Koru Institute Training Education,173.9651154,-41.5143423,Marlborough Region
+7449,Duke Institute of Studies Ltd,174.7706816,-36.7893285,Auckland Region
+7453,Regent International Education Group,174.7620419,-36.8574617,Auckland Region
+7455,The Professional Bar & Restaurant School,174.7607061,-36.8509924,Auckland Region
+7459,Taylors College and Embassy CES,174.7624928,-36.8577037,Auckland Region
+7465,Downie Stewart Foundation,170.4911109,-45.8812374,Otago Region
+7466,Queens Academic Group Limited,174.7653786,-36.8499532,Auckland Region
+7471,EVAKONA Education,175.6988665,-36.8413472,Waikato Region
+7476,Safety 'n Action Limited,174.5522022,-36.6699477,Auckland Region
+7479,New Zealand Institute of Management Incorporated,174.7771659,-41.286029,Wellington Region
+7480,The Campbell Institute Limited,174.7744076,-41.2908185,Wellington Region
+7488,International College of Auckland Limited,174.6824209,-36.9106952,Auckland Region
+7491,Foundation English Limited,174.7653786,-36.8499532,Auckland Region
+7493,Institute of Commercial Education NZ Ltd,174.908779,-36.8996753,Auckland Region
+7499,Imperial College of New Zealand,174.7564775,-36.8674366,Auckland Region
+7502,Ignite Colleges,174.8744456,-37.0073446,Auckland Region
+7508,NZ Institute of Science & Technology Ltd,174.7633733,-36.8480121,Auckland Region
+7526,North Shore International Academy,-105.0153406,39.6157122,Auckland Region
+7529,National Engineering Institute Limited,174.7631184,-36.8454363,Auckland Region
+7530,National Institute of Education,174.763709,-36.8455462,Auckland Region
+7539,UUNZ Institute of Business,174.7663075,-36.856325,Auckland Region
+7542,Youth Cultures & Community Trust t/a Praxis,174.7775972,-41.2940122,Wellington Region
+7548,ICL Business School,174.7671923,-36.8476481,Auckland Region
+7551,Bay of Plenty English Language School,176.1668446,-37.6857855,Bay of Plenty Region
+7554,Cornell Institute of Business & Technology,174.7599374,-36.8512842,Auckland Region
+7558,Canterbury International College,172.6471781,-43.5387106,Canterbury Region
+7560,EF International Language Schools Limited,174.7693619,-36.8460028,Auckland Region
+7575,Elite Management School (EMS),174.7761773,-41.2909742,Wellington Region
+7577,School of Business Limited,174.7735765,-36.8665896,Auckland Region
+7590,Auckland Edinburgh College,174.8785718,-36.99178,Auckland Region
+7592,Talent International Institute,170.5080902,-45.8704403,Otago Region
+7594,Rewi Alley Academy,172.597467,-43.5362379,Canterbury Region
+7601,ACG Norton College,174.7624619,-36.8507634,Auckland Region
+7608,North Shore Language School,174.7413594,-36.7737494,Auckland Region
+7610,Peter Minturn Goldsmith School Limited,174.7496043,-36.868986,Auckland Region
+7624,Australasian Institute of Applied Studies,174.7615391,-36.8874942,Auckland Region
+7625,Seafood Training Services Limited,172.6491965,-43.5332235,Canterbury Region
+7626,Horizons Unlimited Limited,172.707637,-43.559715,Canterbury Region
+7627,Learning Innovations Limited,176.8409801,-39.643434,Hawke's Bay Region
+7637,College of Law New Zealand Limited,174.7697487,-36.8457078,Auckland Region
+7638,Techtorium NZ Institute of Info Tech,174.7783158,-36.8684458,Auckland Region
+7639,"ABACUS Counselling, Training and Supervision Ltd",174.73881,-36.8555449,Auckland Region
+7647,New Zealand School of Education Limited,174.6848499,-36.9059013,Auckland Region
+7648,Holistic Health Training Limited,173.0414827,-41.2670977,Tasman Region
+7653,New Zealand College of Business,-104.9973109,39.7309303,Canterbury Region
+7657,LearningWorks,175.2778984,-37.784931,Waikato Region
+7661,L3 Airline Academy (Hamilton),175.32888,-37.868026,Waikato Region
+7664,Concordia Institute of Business Limited,174.7631184,-36.8454363,Auckland Region
+7666,ProAction Medical Limited,174.765412,-36.84311,Auckland Region
+7670,SPELD NZ,173.8766452,-35.936864,Northland Region
+7674,Responsive Trade Education Ltd,175.3085807,-37.7439819,Waikato Region
+7677,SIS Training & Consulting Ltd,173.2241513,-41.3265235,Nelson Region
+7682,AGI Education Limited,174.7671923,-36.8476481,Auckland Region
+7683,Shakti Education & Training Advisory Co,174.6223617,-36.8602668,Auckland Region
+7687,Avatar Institute of Learning,174.1397763,-39.035489,Taranaki Region
+7694,Queenstown Resort College (QRC),168.6636898,-45.0329176,Otago Region
+7695,New Zealand Sports Academy,176.2113321,-38.130763,Bay of Plenty Region
+7699,Dairy Training Limited,175.356595,-37.7796791,Waikato Region
+7703,Auckland Rugby Union,174.7447562,-36.8749538,Auckland Region
+7713,IGQ Golf College Limited,172.6143457,-43.4715808,Canterbury Region
+7716,ProDriver Training Limited,171.2471935,-44.3548657,Canterbury Region
+7722,Leadership Management Australasia (NZ) Limited,173.0867467,-41.2529142,Tasman Region
+7801,Quality Plus Limited,172.5397473,-43.6617411,Canterbury Region
+7804,Fruition Horticulture (BOP) Limited,176.1679884,-37.6885851,Bay of Plenty Region
+7805,Tasman International Academies,174.7649031,-36.8506384,Auckland Region
+7806,Eagle Flight Training Limited,174.9764124,-37.0324238,Auckland Region
+7810,First Training Limited,174.6604897,-36.9069864,Auckland Region
+7811,PassRite Driving Academy Limited,174.8072661,-36.9197938,Auckland Region
+7817,Edvance Limited,176.1581409,-37.7080974,Bay of Plenty Region
+7820,New Zealand Institute of Studies,174.7655396,-36.8474952,Auckland Region
+7826,Wanaka Helicopters Limited,169.2454607,-44.72434,Otago Region
+7832,National Technology Institute Limited,174.7631184,-36.8454363,Auckland Region
+7837,Industry Training Solutions Limited,175.6143482,-40.3544692,Manawatu-Wanganui Region
+7838,Youthline Auckland Charitable Trust,174.7509461,-36.8597006,Auckland Region
+7841,Vet Nurse Plus Limited,174.9025989,-36.959337,Auckland Region
+7846,The Learning Wave Limited,174.750127,-36.8471415,Auckland Region
+7850,New Zealand Institute of Education 2007 Limited,174.7689686,-36.7882463,Auckland Region
+7851,Bernard & Ya Holdings Limited,174.7603552,-36.8463212,Auckland Region
+7855,AA Solutions Limited,174.9496887,-36.9061924,Auckland Region
+7856,Site Safe New Zealand Incorporated,174.7778045,-41.2904816,Wellington Region
+7862,Chivalry Training Providers,174.7653115,-36.8666147,Auckland Region
+7867,Ashburton Learning Centre Inc.,171.7502439,-43.8924387,Canterbury Region
+7871,Maria Montessori Education Foundation,174.7599799,-36.8693928,Auckland Region
+7874,Stellaris PTE Ltd,176.1436478,-37.7144608,Bay of Plenty Region
+7875,Thoughtplanters Limited,174.75167,-36.873117,Auckland Region
+7877,NZ Heavy Engineering Research Association,174.8858707,-36.9897078,Auckland Region
+7880,QEC Ltd,175.4694926,-37.8939787,Waikato Region
+7881,Educhem Limited,174.9141222,-37.2089534,Auckland Region
+7882,Fire Rescue and First Response Ltd,174.6995906,-36.6017448,Auckland Region
+7885,St John's Theological College,174.8412717,-36.8735597,Auckland Region
+7901,Links Training (2008) Limited,175.6222781,-40.3471108,Manawatu-Wanganui Region
+7902,Evolution School of Beauty & Massage,174.3232366,-35.7277265,Northland Region
+7903,Independent Verification Services Limited,175.3104713,-37.7784733,Waikato Region
+7907,A1 First Aid (2009) Limited,174.6327822,-36.8637469,Auckland Region
+7908,Peak Safety Training Limited,176.2532762,-38.1621312,Bay of Plenty Region
+7909,Industry Training Works Ltd,175.8705786,-38.2179652,Waikato Region
+7911,Learn Plus Limited,174.7807802,-36.9096071,Auckland Region
+7916,Triple One Care,173.2123504,-41.3257571,Nelson Region
+7921,Pacific Coast Technical Institute,176.1898548,-37.6553817,Bay of Plenty Region
+7927,Search and Rescue Institute New Zealand (SARINZ) Limited,172.5667387,-43.4885359,Canterbury Region
+7929,New Zealand Dental Association Incorporated,174.81477,-36.899576,Auckland Region
+7930,Kiwi Institute of Training and Education Limited,174.7655396,-36.8474952,Auckland Region
+7932,Abacus Institute of Studies,172.629933,-43.54025,Canterbury Region
+7933,NZ Institute of Business & Technology,172.4677741,-43.6436854,Canterbury Region
+7937,Fire and Safety Training Limited,171.2471935,-44.3548657,Canterbury Region
+7940,Auckland English Academy,174.7652002,-36.8496473,Auckland Region
+7944,VisionWest Community Trust,174.6487111,-36.917864,Auckland Region
+7945,Bakels Training Organisation,174.8237527,-36.9194267,Auckland Region
+7946,Professional IQ College,174.7650025,-36.8503776,Auckland Region
+7948,ACT Safety Limited,174.8544094,-36.9447522,Auckland Region
+7956,The Whanganui Learning Centre Trust,175.047602,-39.9286424,Manawatu-Wanganui Region
+7957,Coromandel Outdoor Language Centre,175.7092841,-36.8028634,Waikato Region
+7963,Strategi Institute Limited,174.7103465,-36.7334128,Auckland Region
+7978,TriEx,172.6075169,-43.5325198,Canterbury Region
+7982,The Learning Place Limited,172.5903401,-43.5279611,Canterbury Region
+7983,NZ Mines Rescue Service,171.2474738,-42.3994897,West Coast Region
+7999,New Zealand Sports Turf Institute Limited,175.6251378,-40.3976309,Manawatu-Wanganui Region
+8020,GETraining,174.8087301,-41.2297678,Wellington Region
+8021,New Zealand Academic and Learning Institute,174.7706816,-36.7893285,Auckland Region
+8022,Bodhi Ltd,174.6502017,-36.9240814,Auckland Region
+8025,Ringa Atawhai Matauranga Limited,174.3166154,-35.729725,Northland Region
+8026,Air Hawkes Bay Limited,176.7664067,-39.6493168,Hawke's Bay Region
+8028,Franklin Institute of Agri-Technology,174.8081389,-37.1659941,Auckland Region
+8029,Creative Learning Solutions Ltd,174.7661673,-36.8488969,Auckland Region
+8031,Christchurch Helicopters,172.5292463,-43.4816097,Canterbury Region
+8035,Adventure Works Limited,174.7108073,-36.8777591,Auckland Region
+8036,Enterprise Central Network Incorporated,175.2810182,-37.7888751,Waikato Region
+8047,ALC,173.2136502,-41.3228327,Nelson Region
+8067,English Language Partners New Zealand Trust,174.7735876,-41.2747611,Wellington Region
+8069,Oceania Career Academy,174.8523612,-36.9577122,Auckland Region
+8074,New Zealand International Commercial Pilot Academy Limited,175.6052993,-40.2557841,Manawatu-Wanganui Region
+8088,Steiner Education Development Trust Ltd,172.7204843,-43.6347591,Canterbury Region
+8089,The Palace Dance Studio,174.8147928,-36.9092421,Auckland Region
+8091,Taranaki Outdoor Pursuits and Educational Centre (TSB TOPEC),174.1158683,-39.1048755,Taranaki Region
+8092,Brittain's - Lifelong Choices,174.07672,-39.0557453,Taranaki Region
+8093,P&T Global Education,174.9538856,-41.2711713,Wellington Region
+8095,Tana Training,174.8142612,-37.1945182,Auckland Region
+8098,Eastbay REAP Society Incorporated,176.9930645,-37.9545049,Bay of Plenty Region
+8158,Multicultural Centre for Learning and Support Services,174.7740011,-41.2980642,Wellington Region
+8167,Naturopathic College of N Z Ltd,174.0807575,-39.0556286,Taranaki Region
+8174,SAE Institute,174.777721,-36.8535351,Auckland Region
+8192,Media Design School,174.7642781,-36.8480623,Auckland Region
+8199,Vertical Horizonz New Zealand Limited,176.1290813,-37.7249673,Bay of Plenty Region
+8204,Active Institute,174.8680655,-36.9886779,Auckland Region
+8209,ProMed,171.295416,-44.2410502,Canterbury Region
+8217,Actions for Survival Training Limited,174.8720757,-37.0020234,Auckland Region
+8224,PORSE Education & Training (NZ) Limited,176.8335796,-39.6326157,Hawke's Bay Region
+8229,Blueprint Centre For Learning,174.7580061,-36.8658838,Auckland Region
+8237,Besafe Training Limited,174.7381332,-36.6324154,Auckland Region
+8241,Stainless Steel & Aluminium Welding Academy Ltd,172.6527544,-43.5464273,Canterbury Region
+8247,Waikato Institute for Leisure and Sport Studies,175.3185831,-37.7811813,Waikato Region
+8251,City First Aid Training Limited,172.7631181,-43.5762847,Canterbury Region
+8252,MSL Training Limited,174.8790102,-36.9850328,Auckland Region
+8255,Ecoquest Education Foundation,175.2997791,-37.0491451,Waikato Region
+8256,BETAA Consultants Limited,175.2599122,-37.7541842,Waikato Region
+8260,Fire and Emergency Training Solutions Limited,175.0481148,-41.1312498,Wellington Region
+8264,IceNZ Ltd,175.3863378,-40.0914417,Manawatu-Wanganui Region
+8265,Wellcare Education Limited,174.778145,-41.2924192,Wellington Region
+8270,New Zealand Welding School,176.2220135,-37.6779229,Bay of Plenty Region
+8272,W. A. Consulting Training Limited,176.2538722,-38.1408062,Bay of Plenty Region
+8277,The International Travel College of New Zealand Limited,174.7632778,-36.8568407,Auckland Region
+8282,Training In Action Ltd,175.2075984,-37.9878389,Waikato Region
+8285,Pathways College of Bible & Mission,174.8095951,-36.9040457,Auckland Region
+8292,Central Otago Rural Education Activities Programme,169.391892,-45.2550727,Otago Region
+8297,Waikato Institute of Education,175.2774036,-37.7845638,Waikato Region
+8298,Genesis Power Private Training Establishment,175.151404,-37.5294818,Waikato Region
+8325,Eastwest College of Intercultural Studies,175.3016658,-37.671311,Waikato Region
+8327,NZ Graduate School of Education,172.6239186,-43.5169783,Canterbury Region
+8329,JTP Consultants Ltd t/a Te Kotahitanga Training,174.8697864,-36.9604113,Auckland Region
+8341,Wellpark College of Natural Therapies,174.7305358,-36.8593671,Auckland Region
+8351,Transpower Grid Skills,-72.6915658,41.7740994,Manawatu-Wanganui Region
+8353,Psychosynthesis Training Programmes Ltd,174.7587749,-36.926509,Auckland Region
+8356,Success Maker Education Centre,176.8439068,-39.6447645,Hawke's Bay Region
+8357,Longlas Limited,175.2798619,-40.6312229,Manawatu-Wanganui Region
+8360,Taranaki Educare Training Trust,174.0675918,-39.0574952,Taranaki Region
+8365,Cornerstone Education Limited,176.2225989,-37.6791552,Bay of Plenty Region
+8367,Step By Step Computer Services,174.7478494,-36.8705187,Auckland Region
+8379,Tauranga Hair Design Academy Limited,176.1691156,-37.6803649,Bay of Plenty Region
+8380,Life Care Consultants,175.2742713,-37.7811151,Waikato Region
+8389,Royal New Zealand Plunket Trust,174.7755405,-41.2881357,Wellington Region
+8395,QED Associates,174.8550602,-36.9355639,Auckland Region
+8396,New Zealand College of Chiropractic,174.8269865,-36.899782,Auckland Region
+8405,Land Based Training Ltd,175.0471338,-39.931833,Manawatu-Wanganui Region
+8408,Agoge Training Limited,175.3088814,-37.7755838,Waikato Region
+8415,Capital Training Limited,174.7755837,-41.2805295,Wellington Region
+8425,Te Wananga Takiura O Nga Kura Kaupapa Maori o Aotearoa,174.7746587,-36.9119727,Auckland Region
+8430,PACT Limited,174.9521354,-41.1872275,Wellington Region
+8433,NETCOR Campus (NZ Education and Tourism Corporation),176.0877403,-38.6352136,Waikato Region
+8434,The Training Bureau Limited,175.2851938,-37.7897535,Waikato Region
+8437,Newton College of Business & Technology,174.756081,-36.8687861,Auckland Region
+8449,NZ School of Commercial Diver Training,175.1477408,-37.5707237,Waikato Region
+8454,Wood Wise,176.2655476,-38.1607375,Bay of Plenty Region
+8455,Airways Training Centre,172.5583251,-43.4960408,Canterbury Region
+8457,Pacific Intl Hotel Management School,174.1419061,-39.0361213,Taranaki Region
+8458,Yoobee School of Design,174.76444,-36.856985,Auckland Region
+8465,Endeavour Technical Training Limited,175.6013836,-40.3452921,Manawatu-Wanganui Region
+8471,Vineyard College,174.6299435,-36.8876612,Auckland Region
+8473,Premier Institute of Education,174.7710601,-36.7880165,Auckland Region
+8475,Elim Leadership College,174.9153184,-36.9137128,Auckland Region
+8476,Broadspectrum (New Zealand) Limited,174.6737415,-36.8778339,Auckland Region
+8479,College of Natural Health and Homeopathy,174.7749837,-36.8923903,Auckland Region
+8489,Solomon Group,174.900067,-37.0242425,Auckland Region
+8490,NZ Institute of Sport,174.7837575,-41.2764947,Wellington Region
+8491,Alpha Educational Institute,172.5608016,-43.4916312,Canterbury Region
+8497,NZ Equine Education Trust,174.8711227,-41.2235013,Wellington Region
+8498,Catholic Institute of Aotearoa New Zealand,174.7756565,-41.2757341,Wellington Region
+8502,Te Kura Toi Whakaari O Aotearoa: New Zealand Drama School Incorporated,174.7746702,-41.3083689,Wellington Region
+8503,NZ School of Dance,174.7746702,-41.3083689,Wellington Region
+8504,Taratahi Agricultural Training Centre,175.6364818,-41.0039407,Wellington Region
+8509,Whitecliffe College of Arts and Design,174.7842677,-36.8499275,Auckland Region
+8524,ALI Education Limited,174.7643931,-36.8497844,Auckland Region
+8530,Auckland Institute of Studies,174.7208374,-36.8735583,Auckland Region
+8532,New Zealand Language Centres Limited,174.763744,-36.8454526,Auckland Region
+8537,Dominion English Schools,-95.6376734,37.0367095,Auckland Region
+8541,Canterbury College Limited,172.6379338,-43.5324035,Canterbury Region
+8544,Languages International Ltd,174.768921,-36.8494793,Auckland Region
+8546,New Horizon College,176.9169523,-39.4923303,Hawke's Bay Region
+8550,IPU New Zealand ,175.6397107,-40.3879602,Manawatu-Wanganui Region
+8552,Seafield School of English,174.7630138,-36.8478134,Auckland Region
+8554,Southern Cross Language Institute,172.6255835,-43.5184754,Canterbury Region
+8563,Laidlaw College Incorporated,174.6352101,-36.8589601,Auckland Region
+8567,Faith Bible College,176.2388475,-37.7168048,Bay of Plenty Region
+8571,EDENZ Colleges,174.7651311,-36.8556479,Auckland Region
+8573,Alphacrucis International College,174.8057968,-36.9067066,Auckland Region
+8582,Mount Maunganui Language Centre,176.1861379,-37.6440439,Bay of Plenty Region
+8585,Worldwide School Limited,174.764482,-36.8497903,Auckland Region
+8588,Air New Zealand Aviation Institute,174.782066,-36.9764178,Auckland Region
+8589,International Aviation Academy of NZ Ltd,172.5368705,-43.4863981,Canterbury Region
+8595,Nelson Aviation College Limited,172.9948978,-41.1231533,Tasman Region
+8600,The Salvation Army Booth College of Mission,175.0494887,-41.1321682,Wellington Region
+8601,National School of Aesthetics,172.6284416,-43.5426524,Canterbury Region
+8603,Face and Beauty Academy,176.1689943,-37.6871774,Bay of Plenty Region
+8609,Ashton Warner Nanny Academy,174.7277099,-36.6229097,Auckland Region
+8613,Waikato School of Hairdressing Limited,175.2773487,-37.7855427,Waikato Region
+8619,New Zealand Tertiary College,174.7951926,-36.8892921,Auckland Region
+8621,The Hairdressing College,175.6034747,-40.3570698,Manawatu-Wanganui Region
+8626,Hungry Creek Art And Crafts School,174.6600258,-36.4950451,Auckland Region
+8630,Te Wananga O Aotearoa,175.3177617,-38.0041518,Waikato Region
+8634,South Pacific Bible College,176.1358317,-37.6842107,Bay of Plenty Region
+8637,Service Skills Centre,176.2512521,-38.1334338,Bay of Plenty Region
+8638,Ardmore Flying School Ltd,-97.0186327,34.302181,Auckland Region
+8640,New Zealand School of Tourism Limited,174.7655833,-36.846778,Auckland Region
+8642,South Pacific College of Natural Medicine,174.8109729,-36.8975484,Auckland Region
+8644,Crown Institute of Studies,174.7659851,-36.8500222,Auckland Region
+8648,Meditrain Ltd,174.7785095,-36.9237907,Auckland Region
+8655,South Seas Film and Television School,174.7303339,-36.7666585,Auckland Region
+8657,Business College NZ Limited,174.8539359,-36.8984906,Auckland Region
+8661,New Zealand Management Academies Ltd,174.8465003,-36.9141048,Auckland Region
+8672,Barnardos,172.6473631,-43.5216476,Canterbury Region
+8677,TAFE College (NZ) Ltd,174.7740287,-36.8714747,Auckland Region
+8682,Kaplan International Colleges,174.7791212,-36.862739,Auckland Region
+8688,Kokiri Marae Keriana Olsen Trust,174.9067409,-41.2423445,Wellington Region
+8692,Feats Limited,174.282288,-39.5936987,Taranaki Region
+8693,Workforce Development Limited,176.8913482,-39.4967852,Hawke's Bay Region
+8694,Bethlehem Tertiary Institute,176.1103015,-37.7054475,Bay of Plenty Region
+8714,Employers & Manufacturers Association Training Centre,174.7654932,-36.8651056,Auckland Region
+8717,Good Shepherd College - Te Hepara Pai,174.751489,-36.8595102,Auckland Region
+8723,Methodist Mission Southern,170.4630344,-45.8956364,Otago Region
+8727,Hayseed Trust Inc,176.8567694,-39.5216936,Hawke's Bay Region
+8735,Tupoho Whanau Trust PTE,175.0450791,-39.9249242,Manawatu-Wanganui Region
+8737,Abel Tasman Educational Trust,172.9969656,-41.0842993,Tasman Region
+8748,Kiwidotcom Training & Academic Institute,174.7093028,-36.7312477,Auckland Region
+8769,Shalom Training Limited,173.2239654,-35.0487972,Northland Region
+8809,Playcentre Education,174.8294657,-41.1560068,Wellington Region
+8816,Alpha Training and Development Centre,174.2062635,-39.0589431,Taranaki Region
+8824,Horizon Education,175.6089096,-40.3535392,Manawatu-Wanganui Region
+8841,U-Turn Community Training Services Limited,174.0760223,-39.0574481,Taranaki Region
+8854,Kiwi English Academy Ltd (Broadway),174.7785505,-36.8675766,Auckland Region
+8858,Auckland Hotel & Chefs Training School,174.7704855,-36.8671088,Auckland Region
+8872,Advance Training Centres Limited,174.6848499,-36.9059013,Auckland Region
+8875,Maniapoto Training Agency,175.1670455,-38.334584,Waikato Region
+8895,ATC New Zealand,175.3002751,-37.7801062,Waikato Region
+8896,New Zealand Red Cross Incorporated,174.7774026,-41.2752439,Wellington Region
+8925,KIWA,174.9408521,-37.0632895,Auckland Region
+8931,Bizness Synergy Training Ltd,174.9264429,-36.8875937,Auckland Region
+8932,Alphacrucis Limited,174.8057968,-36.9067066,Auckland Region
+8941,Aperfield Montessori Trust,172.6040085,-43.5536583,Canterbury Region
+8950,M & O Pacific Limited,174.0308645,-39.076206,Taranaki Region
+8952,South Pacific Islands Institute (SPI),175.2666611,-37.7862466,Waikato Region
+8960,PEETO - The Multi Cultural Learning Cent,172.5924374,-43.5330831,Canterbury Region
+8963,Language Studies International (NZ) Ltd,174.7608235,-36.8563341,Auckland Region
+8964,Write Limited,174.7758543,-41.2859363,Wellington Region
+8966,Christchurch College of English,172.5661343,-43.5220568,Canterbury Region
+8972,NZ Training Centre,175.2943243,-37.7887696,Waikato Region
+8974,Servilles Academy of Hairdressing,174.7655833,-36.846778,Auckland Region
+8979,Carey Baptist College,174.8085603,-36.9045607,Auckland Region
+9043,Institute of Professional Legal Studies,174.7648236,-36.8574624,Auckland Region
+9130,Skills4Work Limited,174.8770707,-36.9903711,Auckland Region
+9131,High Wire Charitable Trust,174.9656238,-37.067512,Auckland Region
+9133,Kalandra Education Group Limited,174.9214961,-37.0661552,Auckland Region
+9135,Aotearoa Career and Management Institute,174.7580051,-36.8574319,Auckland Region
+9140,Transformation Academy,174.7689953,-36.7965391,Auckland Region
+9152,Safety Hub Limited,174.8467503,-41.1090222,Wellington Region
+9163,Enspiral Academy Limited,174.7584644,-36.8673627,Auckland Region
+9164,BMINZ Limited,176.1690493,-37.6868192,Bay of Plenty Region
+9170,International Culinary Studio Limited,172.6553068,-43.3872367,Canterbury Region
+9182,Practical Training Solutions Limited,175.303816,-37.7978328,Waikato Region
+9185,The Mind Lab,174.7742784,-36.8675391,Auckland Region
+9203,Sobieski Consultants Training Division,173.199415,-35.030639,Northland Region
+9225,Master Drive Services Ltd,174.9132917,-41.2441537,Wellington Region
+9230,Quality Education Services Limited,174.8692904,-36.9878518,Auckland Region
+9231,Academy of Diving Trust,175.6227485,-40.3792498,Manawatu-Wanganui Region
+9232,NZ School of Food Hygiene t/a Burwater Pacific,174.7596928,-36.8475851,Auckland Region
+9234,Te Kokiri Development Consultancy Inc,175.274077,-40.6319102,Manawatu-Wanganui Region
+9241,Te Wananga O Raukawa,175.1369537,-40.7516124,Wellington Region
+9242,Anamata,176.992669,-37.9542692,Bay of Plenty Region
+9244,Southern Lakes English College,168.7103616,-44.9669243,Otago Region
+9247,Westport Deep Sea Fishing School,171.5993404,-41.759374,West Coast Region
+9253,Te Kotahitanga E Mahi Kaha Trust,173.7977871,-35.412178,Northland Region
+9270,Whakato te Matauranga,177.4161985,-39.0331363,Hawke's Bay Region
+9279,Arai te Uru Kokiri Centre Charitable Trust,170.5018608,-45.8962961,Otago Region
+9290,English Teaching College,-95.712891,37.09024,Manawatu-Wanganui Region
+9294,Ag Challenge Ltd,175.0449491,-39.929994,Manawatu-Wanganui Region
+9296,Huria Trust,176.1487212,-37.6901899,Bay of Plenty Region
+9300,The Energy Trainers Ltd,176.0846334,-38.6898795,Waikato Region
+9310,C Hayes Engineering Training Division,177.2900216,-38.0247021,Bay of Plenty Region
+9324,Animation College of New Zealand Limited,174.7619698,-36.8560585,Auckland Region
+9328,Skills Update Training and Education Group,174.8211247,-36.9777867,Auckland Region
+9344,Whitireia New Zealand Ltd,174.778145,-41.2924192,Wellington Region
+9352,Institute of Applied Learning Limited,174.7653786,-36.8499532,Auckland Region
+9363,Patumakuku Incorporated Society,175.274077,-40.6319102,Manawatu-Wanganui Region
+9381,Te Kohanga Reo Trust - Wellington,174.7707975,-41.300596,Wellington Region
+9384,Trade and Commerce Centre Limited,176.8766742,-39.5073327,Hawke's Bay Region
+9386,Te Whare Wananga O Awanuiarangi,176.9897981,-37.9595355,Bay of Plenty Region
+9388,National Council of YMCAs of NZ,174.8898731,-41.2176472,Wellington Region
+9392,Dunedin Trade Training Centre Limited,170.4994799,-45.8895229,Otago Region
+9393,Nelson Training Centre,173.2823616,-41.2748648,Nelson Region
+9401,Matapuna Training Centre,178.016503,-38.6608582,Gisborne Region
+9409,First Aid Consultants Limited,174.9013839,-41.1156038,Wellington Region
+9410,The Learning Connexion Ltd,174.9667322,-41.1786576,Wellington Region
+9423,Child Matters,175.2766131,-37.7850204,Waikato Region
+9429,Palmerston North School of Design,175.6094952,-40.3562454,Manawatu-Wanganui Region
+9436,G and H Training Limited,176.8867353,-39.5000333,Hawke's Bay Region
+9441,Opus Environmental Training Centre,174.9139504,-41.2404625,Wellington Region
+9446,Kapiti Skills Centre,174.9994951,-40.9063955,Wellington Region
+9458,Golden Bay Work Centre Trust,172.8071766,-40.8577257,Tasman Region
+9471,Polyethnic Institute of Studies,174.8697864,-36.9604113,Auckland Region
+9486,Harrington/Vaughan Academy of Hairdressing Limited ,170.4984935,-45.8930286,Otago Region
+9497,Rotorua English Language Academy,176.2423765,-38.1371577,Bay of Plenty Region
+9508,Literacy Aotearoa Training,174.7311875,-36.8592946,Auckland Region
+9513,ACTS Auckland City Training School,174.878897,-36.9848225,Auckland Region
+9515,Target Education,174.8620349,-36.9686844,Auckland Region
+9518,ABC College of English,168.6582637,-45.0312933,Otago Region
+9520,Te Rito Maioha Early Childhood New Zealand,174.7816684,-41.2717293,Wellington Region
+9522,Lakeland Learning Company Limited,176.0758433,-38.6841394,Waikato Region
+9531,Excel Ministries Schl of Performing Arts,174.6915949,-36.9048997,Auckland Region
+9535,Horowhenua Learning Centre,175.2904339,-40.6265567,Manawatu-Wanganui Region
+9565,The Salvation Army Education & Employment,174.7745463,-41.2951017,Wellington Region
+9597,Maata Waka Enterprises,172.7001968,-43.5221473,Canterbury Region
+9605,Pasifika Education Centre,174.8523612,-36.9577122,Auckland Region
+9611,The New Zealand College of Massage,174.7749837,-36.8923903,Auckland Region
+9619,Hillary Outdoors Education Centres,175.7720112,-38.9947031,Manawatu-Wanganui Region
+9642,Te Pou Oranga O Whakatohea Limited,177.2873454,-38.0040034,Bay of Plenty Region
+9644,Trinity Methodist Theological College,174.8412717,-36.8735597,Auckland Region
+9646,Turanga Ararau,178.0221503,-38.6681898,Gisborne Region
+9656,Nelson Technical Institute Ltd,173.208876,-41.329069,Nelson Region
+9660,Gisborne Development Incorporated,178.0157161,-38.6639496,Gisborne Region
+9670,NZ School of Acupuncture & TCM,174.775666,-41.2877674,Wellington Region
+9671,Frontline Training Consultancy,168.3469002,-46.3950629,Southland Region
+9749,Kershaw Training Enterprises,175.2644699,-37.7885965,Waikato Region
+9799,Unique New Zealand,174.7485669,-36.7171584,Auckland Region
+9804,Network for Fitness Professionals,174.748867,-36.714428,Auckland Region
+9816,Nelson English Centre ,173.2841877,-41.2742156,Nelson Region
+9840,Regent Training Centre Ltd ,174.314276,-35.7303568,Northland Region
+9847,Te Wananga Whare Tapere O Takitimu  ,176.8563504,-39.643639,Hawke's Bay Region
+9858,Whenua Iti Trust Incorporated Outdoor Pursuits Centre,-89.7779804,48.6132251,Tasman Region
+9860,Kingston Institute of Business & Technology,174.7630138,-36.8478134,Auckland Region
+9864,Family Planning,174.77338,-41.292023,Wellington Region
+9882,Seabrook McKenzie Centre for Specific Learning Disabilities ,172.6548923,-43.5202642,Canterbury Region
+9885,NZ School of Food & Wine  ,174.7625679,-36.8437226,Auckland Region
+9916,Training New Zealand,176.0903686,-38.7032638,Waikato Region
+9918,Training For You Ltd,175.0444412,-39.9331902,Manawatu-Wanganui Region
+9948,Coastguard Boating Education,174.763653,-36.7912102,Auckland Region
+9950,Language Schools New Zealand,168.6602517,-45.0274379,Otago Region
+9964,People Potential Ltd                    ,174.3187366,-35.7026603,Northland Region
+9979,New Zealand Institute of Fashion Technology Limited,174.7648315,-36.8574007,Auckland Region
+9981,Valley Education & Training Enterprises,175.5656253,-37.1860744,Waikato Region

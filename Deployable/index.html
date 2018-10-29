@@ -308,12 +308,11 @@
               //   zIndex: 50,
               //   title: name
               // };
-            } else if (intType == "University") {
-              return getUniMaker(name);
             } else {
-              return  getTerMaker(name) 
+              return  getUniMaker(name) // '/marker-ed-green-cen.svg'
               ;
             }
+            //baseline-location_city-24px.svg
           });
 
         map.data.addListener('click', function(event) {
@@ -335,29 +334,11 @@
           
       }
 
-      function getTerMaker(name) {
-        var image = {
-          url: '/marker-ed-blue.svg',
-          // This marker is 20 pixels wide by 32 pixels high.
-          size: new google.maps.Size(36, 36),
-          // The origin for this image is (0, 0).
-          origin: new google.maps.Point(0, 0),
-          // The anchor for this image is the base of the flagpole at (0, 32).
-          anchor: new google.maps.Point(18, 32)
-        };
-
-        return {
-            icon: image,
-            title: name
-            
-          };
-      }
-
       function getUniMaker(name) {
         var image = {
           url: '/marker-ed-green-cen.svg',
           // This marker is 20 pixels wide by 32 pixels high.
-          size: new google.maps.Size(36, 36),
+          size: new google.maps.Size(32, 32),
           // The origin for this image is (0, 0).
           origin: new google.maps.Point(0, 0),
           // The anchor for this image is the base of the flagpole at (0, 32).
@@ -372,7 +353,7 @@
       }
       
       
-// blue colour: #177669
+
       function getCircle(size, distanceToNearestUni) {
         var color = 'black';
         if (distanceToNearestUni == "Remote" ) {
